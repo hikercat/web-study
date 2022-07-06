@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/register.js"></script>
+</head>
+<body>
+
+<div id="father">
+
+    <div id="top-nav">
+        <em id="title">环游宇宙只为找到属于自己的星球</em>
+    </div>
+    <div id="ui">
+        <span><img src="../images/planet.png"><em>Planet</em></span>
+    </div>
+    <div id="main">
+        <div id="rst">
+            <p>
+                <span><input type="text" placeholder="   用户名" class="tb" id="userName"></span>
+                <span id="hintUserName">
+                    <img src="../images/感叹号中.png" alt="感叹号" id="img1">
+                    <span>请用英文或数字输入3-15位的用户名</span>
+                </span>
+            </p>
+            <p>
+                <span><input type="text" placeholder="   昵称" class="tb" id="name"></span>
+                <span id="hintName">
+                    <img src="../images/感叹号中.png" alt="感叹号">
+                    <span>请用英文、中文和数字输入3-20位的昵称</span>
+                </span>
+            </p>
+            <p>
+                <span><input type="text" class="tb" placeholder="   邮箱" id="email"></span>
+                <span id="hintEmail">
+                    <img src="../images/感叹号中.png" alt="感叹号">
+                    <span>请输入正确的邮箱</span>
+                </span>
+            </p>
+            <p>
+                <span><input type="text" placeholder="   密码" class="tb" id="psg"></span>
+                <span id="hintPsg">
+                    <img src="../images/感叹号中.png" alt="感叹号">
+                    <span>请用英文和数字设置6-20位的密码</span>
+                </span>
+            </p>
+            <p>
+                <button class="bt" onclick="verify()">立刻注册</button>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <br>
+        <span>&copy;由于不知道写什么，就随便看吧</span>
+    </footer>
+</div>
+
+</body>
+</html>

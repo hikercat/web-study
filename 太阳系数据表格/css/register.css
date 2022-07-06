@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+#father{
+    height: 910px;
+    width: 1920px;
+    padding: 0;
+    margin: auto auto;
+    position: relative;
+}
+#top-nav{
+    background-color: #ffffff;
+    display: block;
+    width: 1920px;
+    height: 50px;
+    text-align: center;
+    border-bottom: #e7e8eb 5px solid;
+    box-shadow:2px 2px 1px #e7e8eb;
+}
+#title{
+    display: inline-block;
+    margin-top: 3px;
+    font-family: 方正姚体, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    letter-spacing: 45px;
+}
+#ui span{
+    font-family: 微软雅黑, serif;
+    font-size: xxx-large;
+    font-weight: bolder;
+    display: block;
+    position: absolute;
+    top: 136px;
+    left: 847px;
+}
+#main{
+    width: 1920px;
+    height: 800px;
+    background-color: #f4f5f8;
+    border-bottom: 1px solid #e7e8eb;
+}
+#rst{
+    background-color: #f4f5f8;
+    display: block;
+    border-radius: 5px;
+    width: 500px;
+    height: 405px;
+    position: absolute;
+    left: 707px;
+    top: 205px;
+}
+#rst>p{
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+}
+#hintUserName,#hintName,#hintEmail,#hintPsg{
+    color: gray;
+    font-weight: normal;
+    font-size: medium;
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 5px;
+}
+#hintUserName span{
+    display: block;
+    position: absolute;
+    right: -262px;
+    top: 7px;
+}
+#hintName span{
+    display: block;
+    position: absolute;
+    right: -293px;
+    top: 7px;
+}
+#hintEmail span{
+    display: block;
+    position: absolute;
+    right: -130px;
+    top: 7px;
+}
+#hintPsg span{
+    display: block;
+    position: absolute;
+    right: -245px;
+    top: 7px;
+}
+.tb{
+    width: 384px;
+    height: 37px;
+    background-color: #fdfdfe;
+    border-radius: 8px;
+}
+.bt{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    width: 226px;
+    height: 44px;
+    background-color: #ea9c89;
+    border: white;
+    border-radius: 20px 20px;
+}
+.bt:hover{
+    opacity: 0.8;
+}
+footer {
+    width: 1920px;
+    height: 50px;
+    text-align: center;
+}

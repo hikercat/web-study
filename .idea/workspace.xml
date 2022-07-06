@@ -4,24 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc5f49fd-f941-4748-919f-097b84256a0f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/太阳系数据表格/css/stlye.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/太阳系数据表格/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/太阳系数据表格/images/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/太阳系数据表格/images/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/太阳系数据表格/images/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/太阳系数据表格/images/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/太阳系数据表格/images/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/太阳系数据表格/images/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/太阳系数据表格/images/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/太阳系数据表格/images/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/太阳系数据表格/index.html" afterDir="false" />
+    <list default="true" id="fc5f49fd-f941-4748-919f-097b84256a0f" name="Changes" comment="第一个作业">
+      <change afterPath="$PROJECT_DIR$/太阳系数据表格/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/太阳系数据表格/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/太阳系数据表格/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/太阳系数据表格/html/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/太阳系数据表格/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/太阳系数据表格/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/太阳系数据表格/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/太阳系数据表格/css/stlye.css" beforeDir="false" afterPath="$PROJECT_DIR$/太阳系数据表格/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/太阳系数据表格/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/太阳系数据表格/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +24,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,23 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Project/firstHTML",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/fristJS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\planet\太阳系数据表格\html" />
       <recent name="E:\Project\planet\太阳系数据表格\images" />
       <recent name="E:\Project\planet\太阳系数据表格\images\2.png" />
       <recent name="E:\Project\planet\太阳系数据表格\2" />
@@ -80,8 +77,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656811725759</updated>
-      <workItem from="1656811727161" duration="15352000" />
+      <workItem from="1656811727161" duration="17431000" />
+      <workItem from="1656850271300" duration="12000" />
+      <workItem from="1656900913014" duration="36000" />
+      <workItem from="1656919087138" duration="1282000" />
+      <workItem from="1656927185286" duration="7580000" />
+      <workItem from="1656942499127" duration="66000" />
+      <workItem from="1656981487953" duration="32835000" />
+      <workItem from="1657067830789" duration="14959000" />
     </task>
+    <task id="LOCAL-00001" summary="第一个作业">
+      <created>1656838400208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656838400208</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一个作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一个作业" />
   </component>
 </project>

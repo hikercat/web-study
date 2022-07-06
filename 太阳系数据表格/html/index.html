@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>太阳系数据表格</title>
-    <link rel="stylesheet" href="css/stlye.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/index.js"></script>
 </head>
-<body>
+<body onload="judge_log()">
 
 <div id="box">
-    <br>
-    <p>
-        太阳系中行星的一些数据。&nbsp;
-        （资料取自 <a href="">NASA 行星数据 - 公测</a>，图片取自 <a href="">NASA 照片库</a>）
-    </p>
+    <div id="user">
+        <img src="../images/用户头像.png">
+        <input type="button" value="注销" onclick="logout()">
+    </div>
+        <p>
+            <span>
+                太阳系中行星的一些数据。&nbsp;（资料取自 <a href="">NASA 行星数据 - 公测</a>，图片取自 <a href="">NASA 照片库</a>）
+            </span>
+        </p>
 <table>
-    <tr class="title">
-        <td colspan="2" class="title2" style="border-right-color: black"></td>
+    <tr class="title_color1">
+        <td colspan="2" class="title2"></td>
         <td class="name1">名字</td>
         <td>图片</td>
         <td>质量(10kg)</td>
@@ -29,9 +34,9 @@
         <td>备注</td>
     </tr>
     <tr>
-        <td rowspan="4" colspan="2" class="title" style="border-right-color: black">类地行星</td>
+        <td rowspan="4" colspan="2" class="title_color1">类地行星</td>
         <td class="name2">水星</td>
-        <td class="title3"><img src="images/1.png" alt="水星"></td>
+        <td class="title_color3"><img src="../images/1.png" alt="水星"></td>
         <td>0.330</td>
         <td>4,879</td>
         <td>5427</td>
@@ -42,9 +47,9 @@
         <td>0</td>
         <td>距太阳最近</td>
     </tr>
-    <tr class="title2">
+    <tr class="title_color2">
         <td class="name2">金星</td>
-        <td><img src="images/2.png" alt="金星"></td>
+        <td><img src="../images/2.png" alt="金星"></td>
         <td>4.87</td>
         <td>12,104</td>
         <td>5243</td>
@@ -57,7 +62,7 @@
     </tr>
     <tr>
         <td class="name2">地球</td>
-        <td class="title3"><img src="images/3.png" alt="地球"></td>
+        <td class="title_color3"><img src="../images/3.png" alt="地球"></td>
         <td>5.97</td>
         <td>12,756</td>
         <td>5514</td>
@@ -68,9 +73,9 @@
         <td>1</td>
         <td>我们的世界</td>
     </tr>
-    <tr class="title2">
+    <tr class="title_color2">
         <td class="name2">火星</td>
-        <td><img src="images/4.png" alt="火星"></td>
+        <td><img src="../images/4.png" alt="火星"></td>
         <td>0.642</td>
         <td>6,792</td>
         <td>3933</td>
@@ -82,10 +87,10 @@
         <td>红色星球</td>
     </tr>
     <tr>
-        <td rowspan="4" class="title">类木行星</td>
-        <td rowspan=2" class="title" style="border-right-color: black">气巨星</td>
+        <td rowspan="4" class="title_color1">类木行星</td>
+        <td rowspan=2" class="title_color1">气巨星</td>
         <td class="name2">木星</td>
-        <td class="title3"><img src="images/5.png" alt="木星"></td>
+        <td class="title_color3"><img src="../images/5.png" alt="木星"></td>
         <td>1898</td>
         <td>142,984</td>
         <td>1326</td>
@@ -96,9 +101,9 @@
         <td>67</td>
         <td>太阳系恩人</td>
     </tr>
-    <tr class="title2">
+    <tr class="title_color2">
         <td class="name2">土星</td>
-        <td><img src="images/6.png" alt="土星"></td>
+        <td><img src="../images/6.png" alt="土星"></td>
         <td>568</td>
         <td>120,536</td>
         <td>687</td>
@@ -110,9 +115,9 @@
         <td></td>
     </tr>
     <tr>
-        <td rowspan="2" class="title" style="border-right-color: black">冰巨星</td>
+        <td rowspan="2" class="title_color1" >冰巨星</td>
         <td class="name2">天王星</td>
-        <td class="title3"><img src="images/7.png" alt="天王星"></td>
+        <td class="title_color3"><img src="../images/7.png" alt="天王星"></td>
         <td>86.8</td>
         <td>51,118</td>
         <td>1271</td>
@@ -123,9 +128,9 @@
         <td>27</td>
         <td></td>
     </tr>
-    <tr class="title2">
+    <tr class="title_color2">
         <td class="name2">海王星</td>
-        <td><img src="images/8.png" alt="海王星"></td>
+        <td><img src="../images/8.png" alt="海王星"></td>
         <td>102</td>
         <td>49,528</td>
         <td>1638</td>
@@ -137,9 +142,9 @@
         <td></td>
     </tr>
     <tr>
-        <td colspan="2" class="title" style="border-right-color: black">矮行星</td>
+        <td colspan="2" class="title_color1">矮行星</td>
         <td class="name3">冥王星</td>
-        <td class="title3"><img src="images/9.png" alt="冥王星"></td>
+        <td class="title_color3"><img src="../images/9.png" alt="冥王星"></td>
         <td>0.0146</td>
         <td>2,370</td>
         <td>2095</td>
